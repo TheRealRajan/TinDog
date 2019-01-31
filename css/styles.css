@@ -1,0 +1,187 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+
+}
+body{
+  font-family: Montserrat;
+  text-align: center;
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat;
+}
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.2rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.section-header{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 60px;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.navbar-brand:hover{
+  text-shadow: 1px 2px 2px grey;
+}
+.nav-item{
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+.phone-img{
+  width: 50%;
+  transform: rotate(20deg);
+  position: relative;
+  left:30%;
+}
+@media (max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .phone-img{
+    transform: rotate(0);
+    position: static;
+  }
+}
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 2;
+
+}
+.feature-title{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature-subtitle{
+  color: #8f8f8f;
+  padding:5%;
+}
+.feature-icon{
+  color: #ef8172;
+  padding: 1rem;
+
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.feature-row{
+
+}
+
+/* Testimonials */
+#testimonials{
+
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-header{
+font-family: Montserrat;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+}
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 15%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.carousel-indicators li {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+/* Press Section */
+#press{
+
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width:40%;
+  margin:20px 20px 50px;
+}
+.tnw-img{
+  width:20%;
+}
+.bizinsider-img{
+  width:50%;
+}
+.press-statement{
+  display: inline;
+}
+
+
+/* Cards */
+.card{
+
+}
+
+.card-header{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+/* Pricing Section */
+#pricing{
+  padding:100px;
+
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+
+/* Call To Action */
+#cta{
+
+  background-color: #ff4c68;
+  padding: 3% 0;
+  color: #fff;
+}
+.cta-header{
+  font-size: 2rem;
+  font-weight:bold;
+  padding-top:30px;
+}
+/* Footer Section */
+#footer{
+
+  background-color: #fff;
+  padding: 3% 0;
+}
+.footer-icon{
+  padding:2% 1%;
+}
